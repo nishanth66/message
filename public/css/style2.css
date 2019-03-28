@@ -1,0 +1,544 @@
+.logoImage
+{
+    height: 54px !important;
+    background: transparent;
+    margin-left: -30px !important;
+    margin-right: 0px;
+}
+@media only screen and (max-width: 768px) {
+    .logoImage
+    {
+        width: 200px !important;
+        margin-left: 0px !important;
+    }
+    .login-box
+    {
+        width: 336px !important;
+    }
+    .register-box
+    {
+        width: 336px !important;
+    }
+    .package-change-header-tr
+    {
+        height: 20px !important;
+        line-height: 20px !important;
+        background-color: #6193e4 !important;
+        font-size: 12px !important;
+    }
+    .pricingTable-signup123
+    {
+        width: 100% !important;
+        line-height: 31px !important;
+    }
+}
+.icon
+{
+    font-size: 15px !important;
+    /*float: right;*/
+}
+.addFeild
+{
+    margin-left: 2% !important;
+}
+.addFeild1
+{
+    margin-left: 6px !important;
+}
+.editImage
+{
+    height: 100px !important;
+    width: 100px !important;
+    /*position: relative;*/
+    /*border: 1px solid;*/
+}
+.homeLogin
+{
+    margin-left: -3%;
+}
+.homeLogo
+{
+    margin-left: -8%;
+    margin-top: 3.8%;
+}
+.slideshow-container {
+    max-width: 10000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev1, .next1 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #ff6a5c;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    z-index: 99;
+}
+
+/* Position the "next button" to the right */
+.next1 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev1:hover, .next1:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+/*.active, .dot:hover {*/
+    /*background-color: #717171;*/
+/*}*/
+
+/* Fading animation */
+.fade1 {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade1 {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade1 {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev1, .next1,.text {font-size: 11px}
+}
+.SliderImg
+{
+    height: 500px;
+    width: 1600px;
+}
+@media only screen and (max-width: 768px) {
+    .SliderImg
+    {
+        height: 200px;
+    }
+    .homeLogo
+    {
+        margin-left: 0%;
+    }
+    .mob
+    {
+        display: block !important;
+    }
+    .desktop
+    {
+        display: none !important;
+    }
+    .v3
+    {
+        border-right: 3px solid #ff6a5c;
+    }
+
+}
+.contactLink
+{
+    color:black;
+}
+.contactLink:hover
+{
+    color:#ff6a5c;
+}
+.mob
+{
+    display: none;
+}
+.desktop
+{
+    display: block;
+}
+/***************************************************Login Page********************************************************/
+.login-page
+{
+    background-color: white !important;
+}
+.login-box
+{
+    width: 365px;
+    height: auto;
+    margin-top: 7% !important;
+    border: 2px solid #6193e4 !important;
+    color: #000 !important;
+    background: transparent !important;
+}
+.login-box-msg
+{
+    color: black !important;
+    font-size: 18px;
+}
+.login-box-body
+{
+    background-color: white !important;
+    margin-top: 1%;
+}
+.icheck
+{
+    font-size: 15px !important;
+}
+.btnLogin
+{
+    width: 110px !important;
+    margin-left: -50% !important;
+    background: #6193e4 !important;
+}
+.loginLink
+{
+    color: #6193e4 !important;
+}
+.loginLink:hover
+{
+    color: #000000 !important;
+}
+/********************************************************************************************************************/
+.register-page
+{
+    background-color: white !important;
+}
+.register-box
+{
+    width: 361px;
+    height: auto;
+    margin-top: 7% !important;
+    border: 2px solid #6193e4 !important;
+    color: #000 !important;
+    background: transparent !important;
+}
+.register-box1
+{
+    height: 500px !important;
+}
+.register-box-msg
+{
+    color: black !important;
+    font-size: 18px;
+}
+.register-box-body
+{
+    background-color: white !important;
+    margin-top: 1%;
+}
+.btnReg
+{
+    width: 110px !important;
+    margin-left: -40% !important;
+    background: #6193e4 !important;
+}
+.btn-primary
+{
+    background: #6193e4 !important;
+    border-color: black !important;
+}
+.skin-blue .main-header .navbar
+{
+    background-color: #6193e4 !important;
+}
+.skin-blue .main-header .logo
+{
+    background-color: #6193e4 !important;
+}
+.skin-blue .sidebar-menu>li.active>a
+{
+    border-left-color: white !important
+}
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side
+{
+    background-color: #000 !important;
+}
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li.menu-open>a
+{
+    background: #6193e4 !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover
+{
+    color: white !important;
+    background: #6193e4 !important;
+    border-color: #000 !important;
+}
+.packageClass
+{
+    text-transform: uppercase;
+}
+
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+/*.MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }*/
+/*.MultiCarousel .MultiCarousel-inner .item { float: left;}*/
+/*.MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px;}*/
+.MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px);background: transparent;font-size: 40px;color: #6193e4;margin-top: -3%;
+}
+.MultiCarousel .leftLst { left:0; }
+.MultiCarousel .rightLst { right:0; }
+
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+.homeLink
+{
+color: #fff;
+}
+.homeLink:hover
+{
+color: #ff6a5c;
+}
+.errorCode
+{
+    display: none;
+}
+.errorPass
+{
+    display: none;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover
+{
+    background-color : #000;
+}
+.skin-blue .main-header li.user-header
+{
+    background-color: #6193e4 !important;
+}
+.scrollable
+{
+    overflow: scroll;
+}
+.btn11
+{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    /*border-radius: 25px;*/
+    font-weight: 700;
+    height: 43px;
+}
+.btn-primary11
+{
+    background-color: white;
+    color: #6193e4;
+    border: 2px solid #6193e4;
+}
+.btn-primary11:hover
+{
+    background-color: white;
+    color: #ff6a5c;
+    border: 2px solid #ff6a5c;
+}
+.packageMain
+{
+    margin-bottom: 2%;
+    margin-top:2%;
+}
+.homePhone
+{
+    color: #fff;
+}
+.homePhone:hover
+{
+    color: #ff6a5c;
+    text-decoration: underline;
+}
+.payment-body
+{
+    border: 1px solid #000;
+    margin-top: 5%;
+}
+.panel-heading
+{
+    border-bottom: 1px solid #000;
+    background: #6193e4;
+    color: white;
+}
+.btn-paypal-pay
+{
+    border: 1px solid #000;
+}
+.msgDisabled
+{
+    opacity: 0.5;
+    cursor: no-drop;
+}
+.panel-body
+{
+    margin: 5%;
+}
+#test2
+{
+    display: none;
+}
+.pricingTable .pricingTable-signup
+{
+    background: white;
+}
+.proceedBtn
+{
+    width: 100% !important;
+}
+.contactDetails
+{
+    font-size: 12px !important;
+}
+.heading
+{
+    color: #6193e4;
+}
+.section-title h3 span {
+    color: #ff6a5c;
+}
+.packageName
+{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navItem
+{
+    /*font-weight: 1000;*/
+}
+.logoutClass
+{
+    display: none;
+}
+.v2
+{
+    border-right: 3px solid #ff6a5c;
+}
+.faSize
+{
+    font-size: 24px;
+}
+.packageChange
+{
+    margin-left: -7%;
+}
+#test4
+{
+    display: none;
+}
+#test3
+{
+    margin-top:5%;
+    overflow: auto;
+}
+.changeMsg
+{
+    font-size: 18px;
+}
+.scrollable
+{
+    overflow: auto;
+}
+.link-modal
+{
+    overflow: auto;
+}
+.greencheck
+{
+    color: green;
+    font-size: 30px;
+}
+.redclose
+{
+    color: red;
+    font-size: 30px;
+}
+.disabledBtn
+{
+    cursor: no-drop;
+    opacity: 0.5;
+}
+.activePaypal
+{
+    color: darkgreen;
+}
+/*#btnMg2*/
+/*{*/
+    /*display: none;*/
+/*}*/
+.active-package
+{
+    color: white !important;
+    background-color: #5cb85c !important;
+    border: 2px solid #6193e4 !important;
+}
+#errorDays
+{
+    display: none;
+}
+.package-change-header-tr
+{
+    height: 40px;
+    line-height: 40px;
+    background-color: #6193e4;
+}
+.change-package-header-th
+{
+    font-family: docs-Merriweather;
+    border: 1px solid #f3f3f3;
+    color: white;
+    padding-left: 1%;
+}
+.package-change-body-tr
+{
+    height: 30px;
+    line-height: 30px;
+}
+.change-package-body-td
+{
+    color: #666666;
+    border:1px solid #f3f3f3;
+    background: #f3f9ff;
+    padding-left: 1%;
+}
+.change-package-table
+{
+    margin-top: 10%;
+}
