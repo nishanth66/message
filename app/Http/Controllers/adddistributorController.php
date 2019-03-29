@@ -155,6 +155,6 @@ class adddistributorController extends AppBaseController
     }
     public function gitTest()
     {
-        
+        return "git is tested Successfully! tryto Pull";
     }
 }
