@@ -153,4 +153,8 @@ class adddistributorController extends AppBaseController
         return redirect(route('adddistributors.index'));
 
     }
+    public function gitTest()
+    {
+        
+    }
 }
